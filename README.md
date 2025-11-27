@@ -7,7 +7,7 @@ This project was created as a **training exercise** based on the official **Lasl
 
 ## 🚀 Live Demo
 
-🔗 [View Website](https://nabil-hany22.github.io/LaslesVPN-Landing-Page/)
+🔗 [View Website](https://laslesvpnlanding-page.netlify.app/)
 
 ---
 
