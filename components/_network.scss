@@ -1,0 +1,41 @@
+.network {
+  padding: 2rem 0 0;
+  background-color: var(--bg-color-grey);
+}
+.network .container .main-heading p span {
+  font-weight: var(--font-weight-medium);
+}
+.network .container .network-image {
+  position: relative;
+  display: inline-block;
+}
+.network .container .network-image img {
+  display: block;
+  max-width: 100%;
+  transition: opacity var(--alt-transition) ease;
+}
+.network .container .network-image .hover {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+.network .container .network-image .hover {
+  opacity: 1;
+}
+
+.network .container .network-sponsers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 1rem;
+}
+.network .container .network-sponsers img {
+  max-width: 100%;
+  transition: all var(--main-transition);
+}
+.network .container .network-sponsers img:hover {
+  transform: scale(1.08);
+}

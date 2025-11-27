@@ -1,0 +1,38 @@
+.button {
+  width: 25rem;
+  height: 6rem;
+  padding: 1.75rem 7.75rem;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-bold);
+  line-height: 2.5rem;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border-radius: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+  transition: var(--alt-transition);
+}
+.button:hover {
+  background-color: #b80000;
+  color: var(--color-white);
+  transform: translateY(-5px);
+}
+
+.button-border {
+  width: 17.7876464844rem;
+  height: 4.5rem;
+  padding: 1.2rem 0;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-bold);
+  border-radius: 5rem;
+  border: 0.1rem solid var(--color-red);
+  background-color: var(--color-white);
+  color: var(--color-red);
+  text-transform: capitalize;
+  text-align: center;
+  transition: var(--alt-transition);
+}
+.button-border:hover {
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
